@@ -57,7 +57,7 @@ if not os.path.exists("build"):
 
 session = Session()
 session.headers.update({
-    "User-Agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 MicroMessenger/8.0.33(0x18002120) NetType/WIFI Language/en",
+    "User-Agent": "Mozilla/5.0 (iPad; CPU OS 13_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) CriOS/87.0.4280.77 Mobile/15E148 Safari/604.1",
     "Host": "api.issks.com"
 })
 session.cookies.update(dict(
