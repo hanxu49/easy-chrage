@@ -37,8 +37,8 @@ jobs:
       - name: Run Spider
         env:
           JSESSIONID: ${{ secrets.JSESSIONID }}
-#           HTTP_PROXY: ${{ secrets.PROXY }}
-#           HTTPS_PROXY: ${{ secrets.PROXY }}
+          HTTP_PROXY: ${{ secrets.PROXY }}
+          HTTPS_PROXY: ${{ secrets.PROXY }}
         run: |
           python spider.py || true
 
