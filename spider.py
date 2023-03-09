@@ -52,6 +52,8 @@ def checkAlive(session: Session):
     resp = session.get("https://api.issks.com/issksapi/V2/ec/chargingList.shtml")
     return "https://open.weixin.qq.com/connect/oauth2/authorize" not in resp.url
 
+if not os.path.exists("build"):
+    os.mkdir("build")
 
 session = Session()
 session.headers.update({
