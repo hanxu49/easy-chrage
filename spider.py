@@ -5,6 +5,7 @@ import os
 from datetime import datetime, timedelta
 from time import time
 from typing import List
+import pandas as pd
 
 from tabulate import tabulate
 from bs4 import BeautifulSoup
